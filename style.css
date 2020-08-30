@@ -1,27 +1,50 @@
 body{
     margin: 0;
     padding: 0;
+    overflow: hidden;    
+
 }
 #nav{
   height: 22px;
   width: 100%;  
 }
-#list{
+.list{
     list-style-type: none;
-    margin-left: 1070;
+    float: left;
+    
+}
+.list-2{
+    list-style-type: none; 
+   float: right;
+  
+}
+.signup{
+    margin-top: 0px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #4285F4;
+    color: white;
+    height: 25px;
 }
 li{
-    float: right;
     padding:8px;
+    float: left;
+    color:#6f6f6f;
+    list-style:none;
+    
 }
 #image{
     height: 24px;
     width: 24px;
 }
+.google-image{
+   align-items: center;
+}
 #google{
-    height: 130px;
+    height: 170px;
     width: 310px;
-    margin-left: 500px;
+   margin-left: 350px;
+   margin-top: 100px;
     
 }
 input{
@@ -30,11 +53,31 @@ input{
     margin-left: 400px;
     font-size: 20px;
     border:1px solid #e5e5e5;
-    border-radius: 5%;
-    box-shadow: 0px 3px 0px 0px #e5e5e5;
+    border-radius: 25px;
+    box-shadow: 0px 0px 0px 0px #e5e5e5;
 }
 button{
-    margin-left: 600px;
-    margin-top: 60px;
-    padding: 5px;
+    background-color: #f6f6f6;
+   font-size: 15px;
+   color:#6f6f6f;  
+   height: 38px; width:140px;
+    margin-top: 30px;
+    border: 1px solid #e4e4e4;
+}
+.footer{
+    height: 45px;
+    width:100%;
+    background-color: #f2f2f2;
+    border:1px solid #e4e4e4;
+    position: absolute;
+    bottom: 0;
+}
+.list-3{
+    float: left; 
+    margin-left: -30px;
+
+}
+.list-4{
+    float: right;
+
 }
